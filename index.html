@@ -2,4 +2,16 @@
 layout: default
 title: strods.work
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+<h1>strods.work</h1>
+<p>This is a weekend project where I strive to learn HTML, CSS, and Jekyll, and document my thoughts on topics I care about in the blog.</p>
+
+<hr>
+
+<h2>List of blog posts</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
