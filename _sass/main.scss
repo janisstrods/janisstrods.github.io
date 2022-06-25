@@ -1,3 +1,7 @@
+:root {
+    --main-color:#00B3B3;
+}
+
 * {
  font-family: Arial;
 }
@@ -9,22 +13,41 @@ body {
 }
 
 a {
-  color: #9a5b6b;
+  color: var(--main-color);
 }
 
 a:visited {
-  color: #8a5b9a;
+  color: var(--main-color);
+}
+
+blockquote {
+  border-left: medium double var(--main-color);
+  padding-left: 7px;
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+}
+
+ul li::before {
+  content: "♦";  
+  color: var(--main-color); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
   border: 0;
-  border-top: medium double #8A9A5B;
+  border-top: medium double var(--main-color);
   height: 1px;
   overflow: visible;
   padding: 0;
-  color: #8A9A5B;
+  color: var(--main-color);
   text-align: center;
 }
 
@@ -42,12 +65,12 @@ hr::after {
   background-color: white;
   overflow: hidden;
   margin-top: 30px;
-  border: medium double #8A9A5B;
+  border: medium double var(--main-color);
 }
 
 .menu a {
   float: left;
-  color: #8A9A5B;
+  color: var(--main-color);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -55,11 +78,11 @@ hr::after {
 }
 
 .menu a:hover {
-  background-color: #6d8133;
+  background-color: #00B3B3;
   color: white;
 }
 
 .menu a:current {
-  background-color: #04AA6D;
+  background-color: #00B3B3;
   color: white;
 }
