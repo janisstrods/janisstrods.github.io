@@ -14,3 +14,9 @@ Change the motorsport to a spell-casting competition, a series of legendary obst
 - *A clear campaign arc* — the season has a clear goal for teams: the top teams fighting for first place, the mid-fielders trying to manoeuvre themselves into a promising position, the underdogs pushing forwards against all odds.
 - *A stable of colourful characters* — team principals / managers with something to prove, owners investing millions, a bunch of flamboyant pilot divas (competing between teams and between each other), a supporting team of mechanics, engineers, and researchers, oligarchs looking for a team for their ultra-wealthy children, etc. etc.. Add into the mix unique NPCs in every new locale, and you have the fixings for good drama. 
 - *Opportunity for fresh game mechanics* — would be an interesting game design challenge to simulate the race (beyond a single die roll) and the impact that pre-race decisions have on the race. Opportunity to go anywhere on the spectrum from theatre-of-the-mind to a full-on track with minis. 
+
+### Update: Trying this out
+
+Currently (December 2022) running a mini-campaign based on the principles listed above in FATE Core — not F1, but a sailing race set during the golden age of piracy.
+
+As I'm running shorter sessions (2 hours), finding it better to split the race from the preparation phase, but getting a lot of kicks from creating the competitor characters and crafting game mechanics around the race.
